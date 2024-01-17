@@ -1,2 +1,10 @@
 # ftp-connection-pool
-FTP Connection Pool
+
+1.支持连接新建和连接销毁功能。
+
+2.支持Sleep状态的连接轮询验证是否有效的功能。
+
+3.支持连接复用功能。归还给连接池的连接需要回到初始工作目录。
+
+4.提供部分FtpUtils方法。
+
